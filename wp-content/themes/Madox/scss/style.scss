@@ -1,0 +1,26 @@
+@import "_grid.scss";
+
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.background {
+  background-color: #020203;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../cats/iStock-kotki.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.name {
+  color: white;
+  font-size: 40px;
+}
+
+.name_madox {
+  font-size: 55px;
+  font-weight: bold;
+}
