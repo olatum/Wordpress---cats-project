@@ -1,8 +1,14 @@
 @import "_grid.scss";
 
 
-body {
-  font-family: 'Permanent Marker', cursive;
+//body {
+//  font-family: 'Permanent Marker', cursive;
+//}
+.body {
+  overflow-x: hidden;
+}
+.html {
+  overflow-x: hidden;
 }
 
 .background {
@@ -23,4 +29,25 @@ body {
 .name_madox {
   font-size: 55px;
   font-weight: bold;
+}
+
+
+//.slide{
+//  width: 200px;
+//  height: 500px;
+//  background-size: cover;
+//
+//}
+
+.slider li {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+
+
+body {
+  background-color: black;
 }

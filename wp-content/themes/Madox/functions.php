@@ -14,20 +14,20 @@ add_theme_support('post-thumbnails');
 function coderslab_enqueue_script()
 {
 
-    wp_enqueue_script(
-        'bootstrap',
-        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js',
-        ['jquery', 'popper'],
-        '1.0.0',
-        true);
-
-    wp_enqueue_style(
-        'bootstrap',
-        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css',
-        null,
-        true);
-
-
+//    wp_enqueue_script(
+//        'bootstrap',
+//        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js',
+//        ['jquery', 'popper'],
+//        '1.0.0',
+//        true);
+//
+//    wp_enqueue_style(
+//        'bootstrap',
+//        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css',
+//        null,
+//        true);
+//
+//
     wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js',['jquery']);
 
     wp_enqueue_style('slick','https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
