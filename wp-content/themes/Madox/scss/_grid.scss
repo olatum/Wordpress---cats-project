@@ -7,6 +7,9 @@ $gutter:0;
 
 .container{
   padding: 0 $gutter;
+  width: 1200px;
+  border: 1px solid white;
+  height: 100vh;
 }
 .row {
   [class*="col-"] {

@@ -4,10 +4,16 @@
 //body {
 //  font-family: 'Permanent Marker', cursive;
 //}
-.body {
-  overflow-x: hidden;
+
+*{
+  margin: 0 auto;
 }
-.html {
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+html {
   overflow-x: hidden;
 }
 
@@ -23,31 +29,51 @@
 
 .name {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  padding:10px;
 }
 
 .name_madox {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: bold;
 }
 
+header {
+  width: 100vw;
+  height: 50px;
+}
 
-//.slide{
-//  width: 200px;
-//  height: 500px;
-//  background-size: cover;
-//
-//}
 
 .slider li {
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px;
+  height: 450px;
 }
 
+.element_1, .element_2 {
+  min-height: 1px;
+}
 
+.button {
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: white;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  margin: 0 auto;
+}
 
-body {
-  background-color: black;
+.status {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
 }

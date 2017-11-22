@@ -1,6 +1,6 @@
-alert('ok');
+
 jQuery(function () {
-    alert('oko');
+
 
     jQuery (document).ready(function(){
         jQuery('.slider').slick({

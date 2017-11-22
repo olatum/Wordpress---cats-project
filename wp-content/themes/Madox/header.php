@@ -16,3 +16,15 @@
     <?php wp_head(); ?>
 </head>
 <body>
+
+<header>
+    <div class="container">
+
+        <?php
+        wp_nav_menu(['menu'=>'main', 'menu_class'=>'nav']);
+        ?>
+
+    </div>
+</header>
+
+

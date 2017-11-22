@@ -15,16 +15,21 @@
 
         <div class="row">
             <div class="col-3-9">
-                <div class="element"></div>
+                <div class="element_1"></div>
             </div>
             <div class="col-3-9">
-                <div class="element"></div>
+                <div class="element_2"></div>
             </div>
             <div class="col-3-9">
-                <div class="element">
+                <div class="element_3">
                     <div class="name">
-                        <div class="name_madox">MADOX INSPIRACJA</div>
-                        HODOWLA KOTÓW RASOWYCH od 2010 roku
+                        <p class="name_madox">MADOX INSPIRACJA</p><br>
+                        <p> HODOWLA KOTÓW RASOWYCH <br> od 2010 roku </p><br>
+                        <p> MAMY KOCIĘTA!!! <br><br> Wybierz: </p><br>
+                        <p class ="buttons">
+                        <a class="button" href="<?php echo get_category_link(6); ?>" target="_blank">KOCURKI</a>
+                        <a class="button" href="<?php echo get_category_link(7); ?>" target="_blank">KOTKI</a>
+                        </p>
                     </div>
 
                 </div>
@@ -34,18 +39,6 @@
 
 </div>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<!-- post -->
-<?php the_post_thumbnail("full"); ?>
-<?php the_category(); ?>
-<?php the_excerpt(); ?>
-<a href="<?php the_permalink(); ?>">Czytaj dalej</a>
-
-<?php endwhile; ?>
-  <!-- post navigation -->
-<?php else: ?>
-  <!-- no posts found -->
-<?php endif; ?>
 
 <?php get_footer(); ?>
 
