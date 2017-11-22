@@ -2,15 +2,15 @@
 // grid
 //..........................
 
-$column:9;
+$column:12;
 $gutter:0;
 
 .container{
   padding: 0 $gutter;
+  max-width: 100%;
   width: 1200px;
-  border: 1px solid white;
-  height: 100vh;
 }
+
 .row {
   [class*="col-"] {
     margin-bottom:$gutter*2;

@@ -1,4 +1,5 @@
 @import "_grid.scss";
+@import "_header.scss";
 
 
 //body {
@@ -19,8 +20,8 @@ html {
 
 .background {
   background-color: #020203;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 84vh;
   background-image: url("../cats/iStock-kotki.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -41,17 +42,14 @@ html {
   font-weight: bold;
 }
 
-header {
-  width: 100vw;
-  height: 50px;
-}
-
-
 .slider li {
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+ img {
+   width:100%;
+   height: auto;
+ }
 }
 
 .element_1, .element_2 {
@@ -77,3 +75,28 @@ header {
   font-weight: 600;
   font-size: 2rem;
 }
+
+  section.loop {
+    display: flex;
+    justify-content: space-between;
+
+    div{
+      width: 45%;
+    }
+  }
+
+footer {
+  width: 100%;
+  height: 8vh;
+  background-color: #92938D;
+  p{
+    color:black;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.75em;
+    span {
+      font-weight: bold;
+    }
+  }
+}
+

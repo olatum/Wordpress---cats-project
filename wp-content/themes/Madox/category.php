@@ -15,12 +15,13 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
     <!-- post -->
+    <section class="loop">
+    <div>
+        <?php $galery = get_field('galeria'); ?>
 
-    <?php $galery = get_field('galeria'); ?>
+        <?php //echo '<pre>', var_dump($galery), '</pre>'; ?>
 
-    <?php //echo '<pre>', var_dump($galery), '</pre>'; ?>
-
-    <ul class="slider">
+        <ul class="slider">
         <?php
 
         foreach($galery as $gal){
@@ -28,11 +29,16 @@
             echo '<li class="slide"><img src="' . $gal['url']. '" /></li>';
         }
         ?>
-    </ul>
+        </ul>
+    </div>
 
+    <div>
     <?php the_content(); ?>
     <p class="status"><?php the_field('status'); ?></p>
     <?php the_category(); ?>
+    </div>
+
+    </section>
 
 
 
@@ -42,7 +48,10 @@
     <!-- no posts found -->
 <?php endif; ?>
 
+</div>
+
 <?php get_footer(); ?>
 
-</div>
+
+
 

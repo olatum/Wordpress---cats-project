@@ -14,13 +14,13 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-3-9">
+            <div class="col-4-12">
                 <div class="element_1"></div>
             </div>
-            <div class="col-3-9">
+            <div class="col-3-12">
                 <div class="element_2"></div>
             </div>
-            <div class="col-3-9">
+            <div class="col-5-12">
                 <div class="element_3">
                     <div class="name">
                         <p class="name_madox">MADOX INSPIRACJA</p><br>

@@ -13,6 +13,7 @@ add_theme_support('post-thumbnails');
 
 function coderslab_enqueue_script()
 {
+    wp_enqueue_script('gm', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAUnaZkrEmtT3lU74DxOgUFOPEf8QgTPT8');
 
 //    wp_enqueue_script(
 //        'bootstrap',
