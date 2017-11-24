@@ -23,12 +23,12 @@
             <div class="col-5-12">
                 <div class="element_3">
                     <div class="name">
-                        <p class="name_madox">MADOX INSPIRACJA</p><br>
-                        <p> HODOWLA KOTÓW RASOWYCH <br> od 2010 roku </p><br>
-                        <p> MAMY KOCIĘTA!!! <br><br> Wybierz: </p><br>
+                        <p class="name_madox">Madoxinspiracja*PL</p><br>
+                        <p> Maine Coon <br> Hodowla Kotów Rasowych <br> od 2010 roku </p><br><br>
+                        <p> <span id="imporatant">MAMY KOCIĘTA!!!</span><br><br>Wybierz:</p><br>
                         <p class ="buttons">
-                        <a class="button" href="<?php echo get_category_link(6); ?>" target="_blank">KOCURKI</a>
-                        <a class="button" href="<?php echo get_category_link(7); ?>" target="_blank">KOTKI</a>
+                            <a class="button" href="<?php echo get_category_link(7); ?>" target="_blank">KOTKI</a>
+                            <a class="button" href="<?php echo get_category_link(6); ?>" target="_blank">KOCURKI</a>
                         </p>
                     </div>
 

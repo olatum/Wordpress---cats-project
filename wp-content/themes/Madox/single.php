@@ -26,9 +26,10 @@
         }
         ?>
     </ul>
-
-    <?php the_content(); ?>
-    <p class="status"><?php the_field('status'); ?></p>
+    <div class="content">
+    <p class="content"><?php the_content(); ?></p>
+    </div>
+    <p class="content"><?php the_field('status'); ?></p>
     <?php the_category(); ?>
 
 
@@ -38,7 +39,7 @@
 <?php else: ?>
     <!-- no posts found -->
 <?php endif; ?>
+</div>
 
 <?php get_footer(); ?>
 
-</div>

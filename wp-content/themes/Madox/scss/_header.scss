@@ -1,10 +1,10 @@
 
 header {
   width: 100%;
-  height: 8vh;
+  height: 7vh;
   position: relative;
   z-index: 9999999;
-  background-color: #92938D;
+  background-color: #191B20;
 }
 
 
@@ -21,9 +21,9 @@ header {
   a{
     display:block;
     text-decoration: none;
-    color:black;
+    color:#BD835C;
     padding: 10px 0;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5em;
   }
 }
@@ -43,14 +43,13 @@ header {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        background-color: black;
-        color: white;
+        background-color: #191B20;
         li {
           display: block;
           a {
             padding: 15px;
             display: block;
-            color: white;
+            color: #BD835C;
             text-align: center;
           }
         }

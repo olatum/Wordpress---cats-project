@@ -14,7 +14,7 @@
   <!-- post -->
 
     <?php the_title(); ?>
-    <?php the_content(); ?>
+    <p class="content"><?php the_content(); ?></p>
     <?php the_post_thumbnail(); ?>
 
 <?php endwhile; ?>
@@ -23,7 +23,6 @@
   <!-- no posts found -->
 <?php endif; ?>
 
-
+</div>
 <?php get_footer(); ?>
 
-</div>

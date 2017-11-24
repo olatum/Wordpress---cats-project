@@ -16,7 +16,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
     <!-- post -->
     <section class="loop">
-    <div>
+    <div class="margin">
         <?php $galery = get_field('galeria'); ?>
 
         <?php //echo '<pre>', var_dump($galery), '</pre>'; ?>
@@ -27,15 +27,16 @@
         foreach($galery as $gal){
             //echo '<pre>', var_dump($gal), '</pre>';
             echo '<li class="slide"><img src="' . $gal['url']. '" /></li>';
+            //echo '<li class="slide" style="background-image: url(' . $gal["url"] . ');"></li>';
         }
         ?>
         </ul>
     </div>
 
-    <div>
-    <?php the_content(); ?>
-    <p class="status"><?php the_field('status'); ?></p>
-    <?php the_category(); ?>
+    <div class="content">
+        <p class="content"><?php the_content(); ?></p>
+        <p class="content"><?php the_field('status'); ?></p>
+
     </div>
 
     </section>

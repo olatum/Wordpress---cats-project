@@ -1,45 +1,32 @@
 @import "_grid.scss";
 @import "_header.scss";
+@import "_front_page.scss";
+@import "_footer.scss";
 
 
-//body {
-//  font-family: 'Permanent Marker', cursive;
-//}
+
 
 *{
   margin: 0 auto;
+}
+
+html {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
   overflow-x: hidden;
   background-color: black;
 }
-html {
-  overflow-x: hidden;
-}
 
 .background {
   background-color: #020203;
   width: 100%;
-  height: 84vh;
+  height: 87vh;
   background-image: url("../cats/iStock-kotki.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-
-.name {
-  color: white;
-  font-size: 30px;
-  margin-top: 30px;
-  box-sizing: border-box;
-  text-align: center;
-  padding:10px;
-}
-
-.name_madox {
-  font-size: 50px;
-  font-weight: bold;
 }
 
 .slider li {
@@ -52,51 +39,30 @@ html {
  }
 }
 
-.element_1, .element_2 {
-  min-height: 1px;
-}
-
-.button {
-  border-radius: 5px;
-  padding: 15px 30px;
-  background-color: white;
-  font-size: 17px;
-  color: black;
-  text-decoration: none;
-  margin: 0 auto;
-}
-
-.status {
-  color: white;
-  display: flex;
+.content {
+  //display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 100;
+  font-size: 1rem;
+  color:#BD835C;
+  padding: 30px;
+  margin-top:20px;
 }
 
   section.loop {
     display: flex;
     justify-content: space-between;
 
-    div{
+    > div{
       width: 45%;
     }
   }
 
-footer {
-  width: 100%;
-  height: 8vh;
-  background-color: #92938D;
-  p{
-    color:black;
-    text-align: center;
-    padding: 8px 0;
-    font-size: 0.75em;
-    span {
-      font-weight: bold;
-    }
-  }
+.margin{
+  margin-top:50px;
 }
+
+
 
