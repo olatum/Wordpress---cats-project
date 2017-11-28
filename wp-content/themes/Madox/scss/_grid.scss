@@ -9,6 +9,7 @@ $gutter:0;
   padding: 0 $gutter;
   max-width: 100%;
   width: 1200px;
+  //border: 1px solid white;
 }
 
 .row {
@@ -35,7 +36,6 @@ $gutter:0;
     }
 
     [class*="col-"] {
-      //wszystkie elementy zawieracjące "col"
       float: left;
       padding-left: $gutter;
       padding-right: $gutter;

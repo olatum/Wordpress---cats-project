@@ -21,9 +21,12 @@
   text-align: center;
   padding:20px 0;
   font-weight: 100;
+  display:table-cell;
+  vertical-align:middle;
 }
 
-#imporatant{
+
+.important{
   color:#BD835C;
   font-weight:300;
   font-size:30px;
@@ -32,4 +35,12 @@
 .name_madox {
   margin-top:35px;
   font-size: 55px;
+}
+
+.cats_background{
+  background-image: url("../cats/minkotki.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 700px;
+  min-height: 600px;
 }

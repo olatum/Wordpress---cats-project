@@ -9,6 +9,7 @@
 <?php get_header (); ?>
 
 <div class="container">
+    <div class="view_height">
 
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
   <!-- post -->
@@ -22,7 +23,7 @@
 <?php else: ?>
   <!-- no posts found -->
 <?php endif; ?>
-
+    </div>
 </div>
 <?php get_footer(); ?>
 

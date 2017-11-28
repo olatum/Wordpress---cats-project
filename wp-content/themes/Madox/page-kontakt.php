@@ -10,6 +10,7 @@
 <?php get_header (); ?>
 
 <div class="container">
+    <div class="view_height">
 
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
   <!-- post -->
@@ -30,18 +31,16 @@
                 <p class="content"><?php the_content(); ?></p>
             </div>
         </div>
-
-
-
-
-
     </div>
 <?php endwhile; ?>
   <!-- post navigation -->
 <?php else: ?>
   <!-- no posts found -->
 <?php endif; ?>
+    </div>
 </div>
+
+
 
 
 
