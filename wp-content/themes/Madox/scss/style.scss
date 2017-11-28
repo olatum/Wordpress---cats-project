@@ -2,6 +2,7 @@
 @import "_header.scss";
 @import "_front_page.scss";
 @import "_footer.scss";
+@import "_category.scss";
 
 @keyframes animate
 {
@@ -51,30 +52,7 @@ body {
  }
 }
 
-.content {
-  //display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight: 100;
-  font-size: 1rem;
-  color:#BD835C;
-  padding: 30px;
-  margin-top:20px;
-}
 
-  section.loop {
-    display: flex;
-    justify-content: space-between;
-
-    > div{
-      width: 45%;
-    }
-  }
-
-.margin{
-  margin-top:50px;
-}
 
 .important {
   text-align:center;
@@ -93,4 +71,45 @@ body {
   -webkit-animation-timing-function:linear;
 }
 
+//map
+#map{
+  margin-top: 15%;
+}
 
+
+//o nas
+.photo{
+  background-image: url("../cats/onas2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  min-height: 450px;}
+
+.photo_2{
+  background-image: url("../cats/woliera1m.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  min-height: 400px;}
+
+.o_nas{
+  color: #BD835C;
+  font-size: 16px;
+  }
+
+.margin{
+  margin-top:5%;
+  line-height:23px;
+}
+
+.history{
+  margin-left: 20px;
+  text-align: justify;
+  margin-top:40px;
+}
+
+.now{
+  margin-right: 20px;
+  text-align: justify;
+  margin-top:40px;
+}

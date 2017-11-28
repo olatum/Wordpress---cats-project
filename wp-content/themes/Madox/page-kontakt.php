@@ -15,11 +15,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
   <!-- post -->
     <div class="row">
-
-
         <div class="col-6-12">
-            <br>
-            <br>
             <div id="map"
                  style = "width: 500px; height: 600px;">
             </div>

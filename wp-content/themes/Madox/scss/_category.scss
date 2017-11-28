@@ -1,0 +1,46 @@
+.content {
+  //display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #BD835C;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+ul.post-categories {
+  li {
+    a {
+      text-decoration: none;
+      list-style: none;
+      display: inline-block;
+      color: #BD835C;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+//wielkość kontenera na slajder
+.slick-slide {
+  margin-top: 30px;
+  max-height:750px;
+}
+
+div.content.content_a {
+  display: inline-block;
+}
+
+h2{
+  color:white;
+  font-weight: bold;
+}
+
+h1{
+  color:white;
+  font-weight: bold;
+}
