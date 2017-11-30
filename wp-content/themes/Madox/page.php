@@ -27,6 +27,7 @@
                         Nigdy nie pogodziłam się z jego odejściem, dlatego postanowiłam założyc hodowlę tych pięknych kotów i nazwałam ją imieniem ukochanego Madoxa. Tak z poczatkiem 2010 roku powstała w Zduńskich lasach hodowla kotów rasy Maine Coon Madoxinspiracja*PL. Pierwszą kotką była czarno-biała Gaja z hodowli Magnus*PL, później ruda Bella Brama z hodowli Jurtomia*PL, ostatnią dziewczynką jest szylkretka Demera z hodowli Alara*PL. Tym wspaniałym kocim haremem zarządza rudo-biały Barnaba z hodowli WikiBlack*PL, pomaga mu dzielnie syjamski kastrat imieniem Dschafar.
                     </div>
                 </div>
+
                 <br>
 
                 <div class="col-3-6">
@@ -47,7 +48,9 @@
                         Już nie wyobrażam sobie życia bez moich kocich przyjaciół. Cały dom został przystosowany do ich potrzeb: woliery na świeżym powietrzu, wydzielona część ogrodu, a w salonie drapak od podłogi do sufitu i kilka mniejszych, huśtawki, porodówki...
 
                         Kiedy w marcu 2011 roku przyszły na świat nasze pierwsze kocięta - radość była ogromna. Pomoc w przyjściu na świat maluszków, obserwacja ich rozwoju, pierwszych samodzielnych kroków, zabaw, zapasów ... to uczucia dostępne tylko "kociarzom", telewizor odszedł na dalszy plan. Moją radość zakłóca jedynie świadomość, że niedługo nadejdzie moment rozstania. Ale mam nadzieję, że ich opiekunowie bedą o nie dbali i kochali je. A utrzymując wspólnie kontakt staniemy się nową kocią rodzinką.
-                    <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                 </div>
 

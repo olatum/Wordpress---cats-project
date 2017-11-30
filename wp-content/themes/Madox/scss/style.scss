@@ -7,6 +7,7 @@
 
 *{
   margin: 0 auto;
+  padding: 0
 }
 
 html {
@@ -97,12 +98,12 @@ body {
 
   .photo{
     width: 60vw;
-    height: auto;
+    height:300px;
   }
 
   .photo_2 {
     width: 60vw;
-    height:auto;
+    height:300px;
     margin-left:-50px;
   }
 
@@ -111,3 +112,8 @@ body {
   }
 }
 
+@media only screen and (max-width: 690px) {
+  .photo_2 {
+    display: none;
+  }
+}
