@@ -44,3 +44,12 @@ h1{
   color:white;
   font-weight: bold;
 }
+@media only screen and (max-width: 1024px) {
+  div.content_mobile{
+    margin: 0;
+    width:100vw;
+  }
+  div.grid_1{
+    margin-left:-25px;
+  }
+}

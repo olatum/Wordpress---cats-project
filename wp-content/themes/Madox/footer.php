@@ -11,7 +11,7 @@
 <footer>
     <div class="container">
         <p>
-            Copyright © 2017 <span> Madoxinspiracja*PL </span> - hodowla kotów rasowych Maine Coon.<br>
+            Copyright © 2017 <span> Madoxinspiracja*PL </span> - hodowla kotów rasowych Maine Coon.
             Projekt i wykonanie: DevOla. Wszystkie prawa zastrzeżone. Kontakt pod adresem:
             <a id="mail" href="mailto:ekooladesign@gmail.com">ekooladesign@gmail.com</a>
         </p>

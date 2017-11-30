@@ -17,7 +17,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
     <!-- post -->
     <div class="row">
-        <div class="col-7-12">
+        <div class="col-3-6 grid_3">
         <?php $galery = get_field('galeria'); ?>
             <ul class="slider">
                 <?php
@@ -28,8 +28,8 @@
             </ul>
         </div>
 
-        <div class="col-5-12">
-            <div class="content">
+        <div class="col-3-6 grid_1">
+            <div class="content content_mobile">
                 <div class="content"><h1><?php the_title(); ?></h1></div>
                 <div class="content"><?php the_content(); ?></div>
                 <div class="content"><h2>Status: <?php the_field('status'); ?></h2></div>

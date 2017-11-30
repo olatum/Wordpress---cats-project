@@ -18,23 +18,24 @@
 <body>
 
 <header>
-    <div class="container">
+    <div class="container nav">
 
-        <div class="row">
-
-            <div class="col-7-12 tags">
-                <div class="element_menu">
-                    <?php
-                    wp_nav_menu(['menu'=>'main', 'menu_class'=>'nav']);
-                    ?>
-                </div>
+        <div class="nav_menu">
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
 
-            <div class="col-5-12 tags">
-                <div class="element_1"></div>
-            </div>
+
+            <ul id="nav-menu-bar" class="element_menu menu nav_menu_bar">
+                <li><?php wp_nav_menu(['menu'=>'main', 'menu_class'=>'nav']); ?></li>
+
+            </ul>
         </div>
     </div>
+
+
 </header>
 
 
