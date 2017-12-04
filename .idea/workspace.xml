@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="22c1876b-a175-4051-aac4-b5c2cc6971ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/category.php" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/scss/_footer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/scss/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/scss/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/scss/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Madox/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/Madox/scss/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <marker date="1512043963247" expanded="true" signature="508:846" ph="..." />
                 <marker date="1512043963247" expanded="true" signature="541:650" ph="..." />
@@ -35,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
@@ -47,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            <state relative-caret-position="748">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -121,12 +127,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/page-kontakt.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/_front_page.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/_category.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Madox/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/_grid.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Madox/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Madox/scss/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Madox/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Madox/page.php" />
       </list>
     </option>
   </component>
@@ -140,7 +146,7 @@
     <handled-path value="$PROJECT_DIR$/wp-content/themes/Madox/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="81" />
     <option name="y" value="61" />
     <option name="width" value="902" />
@@ -221,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite/1_Zadania/wp-content/themes" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -258,16 +264,15 @@
       <workItem from="1511863191207" duration="4840000" />
       <workItem from="1511868178638" duration="11181000" />
       <workItem from="1511902157727" duration="16233000" />
-      <workItem from="1512039573280" duration="20946000" />
+      <workItem from="1512039573280" duration="23311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126101000" />
+    <option name="totallyTimeSpent" value="128466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="61" width="1920" height="1052" extended-state="7" />
-    <editor active="true" />
+    <frame x="81" y="61" width="1920" height="1052" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17235859" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -624,14 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/page-kontakt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -659,7 +656,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -667,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -675,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <marker date="1512043963247" expanded="true" signature="508:846" ph="..." />
             <marker date="1512043963247" expanded="true" signature="541:650" ph="..." />
@@ -691,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -706,6 +695,22 @@
           <folding>
             <marker date="1512071124447" expanded="true" signature="771:806" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Madox/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

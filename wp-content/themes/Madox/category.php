@@ -32,7 +32,7 @@
             <div class="content content_mobile">
                 <div class="content"><h1><?php the_title(); ?></h1></div>
                 <div class="content"><?php the_content(); ?></div>
-                <div class="content"><h2>Status: <?php the_field('status'); ?></h2></div>
+                <div class="content"><h2><?php the_field('status'); ?></h2></div>
                 <div class="content content_a"><?php the_category(); ?></div>
             </div>
         </div>
@@ -50,5 +50,9 @@
 <?php get_footer(); ?>
 
 
+<?php if(get_field('dyplom')) { ?>
 
+    <a href="<?php the_field('dyplom')?>" download>>>pobierz dyplom</a>
+
+<?php } ?>
 

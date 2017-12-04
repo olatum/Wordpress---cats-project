@@ -38,6 +38,8 @@
             <div class="row margin">
                 <div class="col-3-6">
                     <div class="photo_2"></div>
+                    <br>
+                    <br>
                 </div>
 
                 <div class="col-3-6 grid_2">
@@ -48,6 +50,7 @@
                         Już nie wyobrażam sobie życia bez moich kocich przyjaciół. Cały dom został przystosowany do ich potrzeb: woliery na świeżym powietrzu, wydzielona część ogrodu, a w salonie drapak od podłogi do sufitu i kilka mniejszych, huśtawki, porodówki...
 
                         Kiedy w marcu 2011 roku przyszły na świat nasze pierwsze kocięta - radość była ogromna. Pomoc w przyjściu na świat maluszków, obserwacja ich rozwoju, pierwszych samodzielnych kroków, zabaw, zapasów ... to uczucia dostępne tylko "kociarzom", telewizor odszedł na dalszy plan. Moją radość zakłóca jedynie świadomość, że niedługo nadejdzie moment rozstania. Ale mam nadzieję, że ich opiekunowie bedą o nie dbali i kochali je. A utrzymując wspólnie kontakt staniemy się nową kocią rodzinką.
+                        <br>
                         <br>
                         <br>
                         <br>
